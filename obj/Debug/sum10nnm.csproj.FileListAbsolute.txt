@@ -1,0 +1,8 @@
+C:\Users\NitinPC\source\repos\sum10nnm\sum10nnm\bin\Debug\sum10nnm.exe.config
+C:\Users\NitinPC\source\repos\sum10nnm\sum10nnm\bin\Debug\sum10nnm.exe
+C:\Users\NitinPC\source\repos\sum10nnm\sum10nnm\bin\Debug\sum10nnm.pdb
+C:\Users\NitinPC\source\repos\sum10nnm\sum10nnm\obj\Debug\sum10nnm.csproj.SuggestedBindingRedirects.cache
+C:\Users\NitinPC\source\repos\sum10nnm\sum10nnm\obj\Debug\sum10nnm.csproj.CoreCompileInputs.cache
+C:\Users\NitinPC\source\repos\sum10nnm\sum10nnm\obj\Debug\sum10nnm.exe
+C:\Users\NitinPC\source\repos\sum10nnm\sum10nnm\obj\Debug\sum10nnm.pdb
+C:\Users\NitinPC\source\repos\sum10nnm\sum10nnm\obj\Debug\sum10nnm.csproj.AssemblyReference.cache
