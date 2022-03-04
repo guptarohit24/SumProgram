@@ -1,0 +1,52 @@
+--------------------------------------------------------------interface--------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace interface123
+{
+    interface myclass
+    {
+        void getdetail();
+        void getdata();
+        void myschool();
+    }
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            Class1 obj = new Class1();
+            obj.getdetail();
+            obj.getdata();
+            obj.myschool();
+            Console.ReadLine();
+        }
+    }
+}
+----------------------------------------class1----------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace interface123
+{
+     class Class1 : myclass
+    {
+        public void getdetail()
+        {
+            Console.WriteLine("myname is rohit");
+        }
+        public void getdata()
+        {
+            Console.WriteLine("my name is rohit gupta");
+        }
+        public void myschool()
+        {
+            Console.WriteLine("police modern school");
+        }
+    }
+}

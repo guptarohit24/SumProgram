@@ -1,0 +1,75 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace collection_list3
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            employee emp1 = new employee()
+            {
+                name = "rohit",
+                age = 21,
+                designation = "md"
+
+            };
+            employee emp2 = new employee()
+            {
+                name = "mohit",
+                age = 21,
+                designation = "dean"
+
+            };
+            employee emp3 = new employee()
+            {
+                name = "sohit",
+                age = 21,
+                designation = "owner"
+
+            };
+            
+            List<employee> emplist = new List<employee>();
+            emplist.Add(emp1);
+            emplist.Add(emp2);
+            emplist.Add(emp3);
+            foreach (employee emp  in emplist)
+            {
+                Console.WriteLine("employee name : {0} employee id : {1} employee designation : {2}",emp.name,emp.age,emp.designation);
+            }
+            List<int> mynumber = new List<int>();
+            mynumber.Add(1);
+            mynumber.Add(2);
+            mynumber.Add(3);
+            mynumber.Add(4);
+            List<string> name = new List<string>();
+            name.Add("rohit");
+            name.Add("shivam");
+            name.Add("anajali");
+            //Console.WriteLine(mynumber.Capacity);
+            foreach (int item in mynumber)
+            {
+                Console.WriteLine(item);
+            }
+        }
+    }
+}
+--------------------------------------------------------------------------------another class------------------------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace collection_list3
+{
+    internal class employee
+    {
+        public string name;
+        public int age;
+        public string designation;
+    }
+}

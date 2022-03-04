@@ -1,0 +1,53 @@
+                                                                                         abstract class
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace abstractclass
+{
+    abstract class myclass
+    {
+        public int age;
+        public string firstname;
+        public string lastname;
+        public abstract void getdetail();
+    }
+
+internal class Program
+    {
+        static void Main(string[] args)
+        {
+            myclass1 obj = new myclass1();
+
+            obj.age = 21;
+            obj.firstname = "rohit";
+            obj.lastname = "gupta";
+            obj.getdetail();
+            Console.ReadLine();
+        }
+    }
+}
+-----------------------------------------------------------------------------another page-------------------------------------------------------------
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace abstractclass
+{
+    
+    
+        class myclass1 : myclass
+        {
+            public override void getdetail()
+            {
+                string name = this.firstname + this.lastname;
+                Console.WriteLine("name : {0}  age : {1}", name, age);
+            }
+
+        }
+}
+			
